@@ -1,0 +1,629 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+
+* {
+    scroll-behavior: smooth;
+}
+
+.common-bg {
+    padding: 30px 0px;
+    font-size: xx-large;
+}
+
+.m-0 {
+    margin: 0;
+}
+
+.p-0 {
+    padding: 0;
+}
+
+.center {
+    text-align: center;
+}
+
+.display {
+    display: inline;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    position: fixed;
+    width: 100%;
+    height: 10vh;
+}
+
+
+@media (max-width:800px) {
+    nav {
+        flex-direction: column;
+        height: 20%;
+        position: sticky;
+        padding-bottom: 7px;
+        width: 100%;
+    }
+
+    #ul-list {
+        flex-direction: column;
+        padding: 0;
+        width: 100%;
+    }
+
+    #ul-list li {
+        width: 100vw;
+    }
+
+
+    #section1 {
+        flex-direction: column-reverse;
+        padding-top: 1%;
+        width: 100%;
+    }
+
+
+
+    .projects {
+        grid-template-columns: repeat(1, auto);
+    }
+
+    #section3 {
+        flex-direction: column;
+        justify-content: start;
+    }
+
+    .sec3div1 {
+        width: 100vw;
+    }
+
+    .location-info img {
+        height: 19px;
+    }
+
+    .sec3div2 {
+        width: 100vw;
+    }
+
+}
+
+@media (min-width:801px) {
+    #section1 {
+        padding-top: 114px;
+    }
+
+    .projects {
+        grid-template-columns: 2fr 2fr 2fr 2fr;
+    }
+
+    .sec3div1 {
+        width: 50vw;
+    }
+
+    .sec3div2 {
+        width: 50vw;
+    }
+
+    #ul-list li {
+        width: 9vw;
+    }
+}
+
+#logo {
+    font-size: larger;
+    padding-left: 15px;
+}
+
+#logo h1 {
+    font-family: "Pacifico", cursive;
+}
+
+#ul-list {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    margin: 0px;
+}
+
+#ul-list li {
+    box-sizing: border-box;
+    font-size: larger;
+}
+
+
+#ul-list li a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding: 2px;
+}
+
+#hamburgerbtn {
+    display: none;
+}
+
+#hamburgerlist {
+    position: absolute;
+    display: none;
+    width: 100vw;
+    margin-top: 35px;
+    background-color: aqua;
+
+}
+
+#hamburgerlist div {
+    width: 100vw;
+
+}
+
+.parentlist {
+    width: 100%;
+}
+
+
+.btn {
+    background-color: black;
+    color: rgb(255, 255, 255);
+    border: none;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+@media(min-width:353px) {
+    .btn {
+        width: 235px;
+        height: 35px;
+    }
+}
+
+@media(max-width:352px) {
+    .btn {
+        width: 100%;
+        height: 40px;
+    }
+}
+
+.btn:hover {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border: 2px solid black;
+    cursor: pointer;
+    width: 235px;
+    height: 35px;
+    border-radius: 20px;
+}
+
+#section1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+#mypic img {
+    height: 235px;
+    width: 355px;
+    padding: 15px 0px;
+
+
+}
+
+@media(max-width:550px) {
+    #mypic img {
+        height: 100%;
+        width: 100%;
+    }
+
+    .sec1div2 strong {
+        font-size: x-small;
+    }
+}
+
+@media(min-width:551px) {
+
+    .intro {
+        font-size: 40px;
+    }
+}
+
+#mypic :hover {
+    box-shadow: 0 10px 16px 0 rgba(39, 39, 39, 0.2);
+}
+
+.sec1div1 {
+    width: 70vw;
+}
+
+.sec1div2 {
+    width: 50vw;
+}
+
+
+.social-list {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.social-list li {
+    margin: 12px 23px;
+}
+
+
+
+
+/* section 2 skills section  */
+
+#section2 {
+    margin-top: 17px;
+}
+
+.projects {
+    display: grid;
+    background-color: rgb(255, 255, 255);
+    padding: 7px 10px;
+}
+
+.project {
+    height: 100%;
+    box-sizing: border-box;
+    padding: 7px 14px;
+    margin: 0px 2px;
+}
+
+
+
+.project:hover {
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+}
+
+
+
+
+.btn2 {
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    height: 33px;
+    width: 100%;
+    cursor: pointer;
+}
+
+
+
+.p-logo img {
+    display: block;
+    margin: auto;
+}
+
+
+
+/* section 3 contact us section  */
+#section3 {
+    display: flex;
+    margin-top: 12px;
+    justify-content: center;
+}
+
+
+
+
+.location-info {
+    display: grid;
+    grid-template-columns: 10% 90%;
+    margin-left: 24px;
+}
+
+.lb-in {
+    padding: 9px 12px;
+}
+
+.lb-in input {
+    width: 80%;
+    height: 28px;
+}
+
+.lb-in textarea {
+    width: 86%;
+}
+
+.btn3 {
+    border: none;
+    background-color: blue;
+    color: white;
+    border-radius: 4px;
+    height: 46px;
+    width: 95px;
+    cursor: pointer;
+}
+
+.connect-social {
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr 2fr;
+}
+
+
+
+#section4 {
+    margin-top: 15px;
+    display: flex;
+}
+
+@media(max-width:530px) {
+    #section4 {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .sec4div1 {
+        width: 100%;
+    }
+
+    .sec4div2 {
+        width: 100%;
+    }
+}
+
+@media(min-width:530px) {
+    .sec4div1 {
+        width: 50%;
+    }
+
+    .sec4div2 {
+        width: 50%;
+    }
+}
+
+
+
+.common-skill-css {
+    border-radius: 25px;
+    text-align: right;
+}
+
+.common-css {
+    border-radius: 25px;
+    color: white;
+}
+
+
+.skills {
+    padding: 15px 32px;
+
+}
+
+.frontend-container {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.frontend-percentage {
+    width: 70%;
+    animation: anim3;
+    animation-duration: 7s;
+    animation-iteration-count: 1;
+    background-color: rgb(135, 129, 129);
+}
+
+@keyframes anim3 {
+    from {
+        width: 0%;
+    }
+
+    to {
+        width: 70%;
+    }
+}
+
+.backend-container {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.backend-percentage {
+    width: 90%;
+    background-color: rgb(135, 129, 129);
+    animation: anim4;
+    animation-duration: 7s;
+    animation-iteration-count: 1;
+}
+
+@keyframes anim4 {
+    from {
+        width: 0%;
+    }
+
+    to {
+        width: 90%;
+    }
+}
+
+.database-container {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.database-percentage {
+    width: 40%;
+    background-color: rgb(135, 129, 129);
+    animation: anim5;
+    animation-duration: 7s;
+    animation-iteration-count: 1;
+}
+
+@keyframes anim5 {
+    from {
+        width: 0%;
+    }
+
+    to {
+        width: 40%;
+    }
+}
+
+.english-container {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.english-percentage {
+    width: 80%;
+    background-color: rgb(135, 129, 129);
+    animation: anim6;
+    animation-duration: 7s;
+    animation-iteration-count: 1;
+}
+
+@keyframes anim6 {
+    from {
+        width: 0%;
+    }
+
+    to {
+        width: 80%;
+    }
+}
+
+.gujarati-container {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.gujarati-percentage {
+    width: 90%;
+    background-color: rgb(135, 129, 129);
+    animation: anim7;
+    animation-duration: 7s;
+    animation-iteration-count: 1;
+}
+
+@keyframes anim7 {
+    from {
+        width: 0%;
+    }
+
+    to {
+        width: 90%;
+    }
+}
+
+.hindi-container {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.hindi-percentage {
+    width: 70%;
+    background-color: rgb(135, 129, 129);
+    animation: anim8;
+    animation-duration: 7s;
+    animation-iteration-count: 1;
+}
+
+@keyframes anim8 {
+    from {
+        width: 0%;
+    }
+
+    to {
+        width: 70%;
+    }
+}
+
+
+/* certificate section  */
+#section5 {
+    margin-top: 17px;
+}
+
+
+/* education section  */
+.ed-container {
+    display: grid;
+    grid-template-columns: 1fr 2fr 7fr;
+
+}
+
+@media(max-width:500px) {
+
+    .ed-container h3 {
+        font-size: small;
+    }
+
+    .ed-container {
+        font-size: small;
+    }
+
+}
+
+#section6 {
+    margin: 14px 7px;
+    background-color: #fefefe;
+}
+
+.ed {
+    padding: 10px 0px;
+
+}
+
+.limit {
+    text-align: center;
+}
+
+
+footer {
+    background-color: black;
+    color: white;
+}
+
+#footer {
+    Display: flex;
+    justify-content: space-evenly;
+
+}
+
+@media (max-width:630px) {
+    #footer {
+        flex-direction: column;
+    }
+}
+
+
+.ab-list {
+    list-style: none;
+}
+
+.ab-list li {
+    margin-top: 12px;
+}
+
+.ab-list a {
+    color: white;
+    text-decoration: none;
+    margin-right: 45px;
+    padding: 2px 2px;
+}
+
+@media (max-width:500px) {
+    .ab-list a {
+
+        padding: 0;
+    }
+}
+
+.quote {
+    font-size: xx-large;
+}
+
+.last-ft {
+    font-size: large;
+}

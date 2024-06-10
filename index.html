@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="css/index.css">
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Pacifico&display=swap" rel="stylesheet">
+    <script src="js/index.js"></script>
+</head>
+
+<body>
+
+    <!-- navbar  -->
+    <nav>
+        <div id="logo">
+            <h1 class="m-0">Dipak Paliya</h1>
+        </div>
+        <div id="hamburgerbtn">
+            <button onclick="hamburgerbtn()">≡</button>
+        </div>
+        <ul id="ul-list">
+            <li class="center "><a href="#">Home</a></li>
+            <li class="center"><a href="#section4">Skills</a></li>
+            <li class="center"><a href="#section2">Projects</a></li>
+            <li class="center"><a href="#section3">Contact me</a></li>
+            <li class="center"><a href="#">About me</a></li>
+        </ul>
+    </nav>
+    <div class="parentlist">
+        <div id="hamburgerlist" class="center">
+            <div>Home</div>
+            <div>Skills</div>
+            <div> Projects</div>
+        </div>
+    </div>
+
+    <!-- navbar ends here  -->
+
+    <!-- About us section  -->
+    <section id="section1">
+        <div class="sec1div1 center">
+            <strong z class="intro">Hello, I'm<span id="mux"> Dipak Paliya</span></strong>
+            <p>🚀 Aspiring Full-Stack Developer'2025 🚀
+                <br>
+                Passionate about technology and innovation, currently pursuing a Bachelor's in Computer Engineering with
+                a focus on mastering full-stack web development. Proficient in <b>HTML5</b>, <b>CSS3</b>, <b>JavaScript
+                </b>, <b>PHP</b>, <b>Java</b>,
+                <b>MySQL</b>, <b>Git& GitHub</b>. Committed to crafting impactful solutions and eager to connect with
+                fellow tech
+                enthusiasts and industry professionals.
+            </p>
+            <ul class="social-list">
+                <li><a href="https://www.linkedin.com/in/dipak-paliya/" target="_blank"><img
+                            src="images/linkedin-square-logo-24.png" alt="" title="linkedIn"></a></li>
+                <li><a href="https://github.com/Dipakpaliya" target="_blank"><img src="images/github-logo-24.png" alt=""
+                            title="GitHub"></a></li>
+                <li><a href="https://www.instagram.com/dipak_paliya_1938/" target="_blank"><img
+                            src="images/instagram-logo-24.png" alt="" title="instagram"></a></li>
+                <li><a href="https://www.facebook.com/dipak.paliya.18" target="_blank"><img
+                            src="images/facebook-circle-logo-24.png" alt="" title="facebook"></a></li>
+            </ul>
+            <div>
+                <button class="btn" onclick="window.location.href='pdf/resume.pdf';" title="Resume">View or Download
+                    Resume</button>
+            </div>
+        </div>
+        <div id="mypic" class="sec1div2 center">
+            <img src="images/mypic-removebg-preview.png" alt="">
+        </div>
+    </section>
+
+    <!-- about us ends here  -->
+
+    <!-- projects section  -->
+    <section id="section2">
+        <h2 class="center common-bg m-0">Projects</h2>
+        <div class="projects ">
+            <div class="project" onmouseenter="func1('btnid1')" onmouseleave="func2('btnid1')" id="first-project">
+                <h4 class="center">College resource management web</h4>
+                <p>This web application is designed to streamline and enhance the management of college resources,
+                    providing a user-friendly interface for students,
+                    faculty, and administrators. Key features include: Secured signup & login System ,Efficient resource
+                    allocation, Comprehensive dashboard for
+                    administrator</p>
+                <button class="btn2" id="btnid1"
+                    onclick="window.location.href='https://github.com/Dipakpaliya/College_Resource_Management_web';">View
+                    on GitHub</button>
+            </div>
+            <div class="project" onmouseenter="func1('btnid2')" onmouseleave="func2('btnid2')">
+                <h4 class="center">E-commerce Web</h4>
+                <p>We're developing an advanced e-commerce platform tailored for today's digital shoppers and sellers.
+                    Leveraging Servlets for server-side logic, JSP for dynamic pages, and MySQL for robust data
+                    management, our platform promises seamless user experiences. With HTML shaping our content and CSS
+                    enhancing visuals, JavaScript adds interactive flair. Together, these technologies form our
+                    platform's innovative backbone.
+                </p>
+                <button class="btn2" id="btnid2"
+                    onclick="window.location.href='https://github.com/Dipakpaliya/E_Commerce_Web';">View on
+                    GitHub</button>
+            </div>
+            <div class="project" onmouseenter="func1('btnid3')" onmouseleave="func2('btnid3')">
+                <h4 class="center">Own Portfolio</h4>
+                <p>Crafted my portfolio website to showcase my skills and projects, featuring innovative design elements
+                    and user-friendly navigation. The site is responsive, interactive, and elegantly designed, providing
+                    a dynamic and versatile platform to display my work. Polished and intuitive, it offers a modern and
+                    personalized experience for visitors of all abilities.</p>
+                <button class="btn2" id="btnid3">View on GitHub</button>
+            </div>
+            <div class="project" onmouseenter="func1('btnid4')" onmouseleave="func2('btnid4')">
+                <h4 class="center">Calculator using JavaScript</h4>
+                <p>The calculator is my first project as i have started in my career journey and developed well known
+                    calculator providing the arithmatic operations. It has significant role on starting my journey of
+                    web development field and gained the valueble skills in that perticular field.</p>
+                <button class="btn2" id="btnid4"
+                    onclick="window.location.href='https://github.com/Dipakpaliya/Calculator';">View on GitHub</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- project section ends here  -->
+
+    <!-- education section  -->
+    <section id="section6">
+        <h2 class="center common-bg m-0">Education</h2>
+        <div class="ed-container">
+            <div class="ed">
+                <h2 class="center m-0"></h2>
+            </div>
+            <div class="ed limit">
+                <i> Sep 2021 - Sep 2025</i>
+            </div>
+            <div class="ed">
+                <h2 class="m-0">Bachelor of Engineering-BE,Computer Engineering</h2>
+                <h3 class="m-0">Government Engineering College,Sector-28,Gandhinagar(GTU)</h3>
+                <span>Grade: 8.09 CGPA (Currently)</span>
+                <p>Studying the technology of computers and knowledge about the programing language to acknowledge
+                    industry requirements.</p>
+            </div>
+            <div class="ed">
+            </div>
+            <div class="ed limit">
+                <i>Jun 2019 - May 2021</i>
+            </div>
+            <div class="ed">
+                <h2 class="m-0"> HSC,Science</h2>
+                <h3 class="m-0">Shree Ambika Vidhyalaya, Rajkot</h3>
+                <span>Grade: 91.53 % (A2)</span>
+                <p></p>
+            </div>
+            <div class="ed">
+            </div>
+            <div class="ed limit">
+                <i> Mar 2009 - Mar 2019</i>
+            </div>
+            <div class="">
+                <h2 class="m-0"> SSC,Matric</h2>
+                <h3 class="m-0">Shree Alfa Madhyamik Shala</h3>
+                <span>Grade: 83.66 % (A2)</span>
+                <p></p>
+            </div>
+        </div>
+    </section>
+
+    <!-- education section ends here  -->
+
+
+    <!-- skill section  -->
+    <section id="section4">
+        <div class="sec4div1">
+            <h2 class="center common-bg m-0">Skills</h2>
+            <div class="skills">
+                <label for=""><b>Frontend</b></label>
+                <div class="frontend-container common-skill-css">
+                    <div class="frontend-percentage common-css">70%</div>
+                </div>
+                <label for=""><b>Backend</b></label>
+                <div class="backend-container common-skill-css">
+                    <div class="backend-percentage common-css">90%</div>
+                </div>
+                <label for=""><b>Database</b></label>
+                <div class="database-container common-skill-css">
+                    <div class="database-percentage common-css">40%</div>
+                </div>
+            </div>
+        </div>
+        <div class="sec4div2">
+            <h2 class="center common-bg m-0">Languages</h2>
+            <div class="skills">
+                <label for=""><b>English </b></label>
+                <div class="english-container common-skill-css">
+                    <div class="english-percentage common-css">80%</div>
+                </div>
+                <label for=""><b>Gujarati </b></label>
+                <div class="gujarati-container common-skill-css">
+                    <div class="gujarati-percentage common-css">90%</div>
+                </div>
+                <label for=""><b>Hindi</b></label>
+                <div class="hindi-container common-skill-css">
+                    <div class="hindi-percentage common-css">70%</div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- skill section ends here  -->
+
+    <!-- certificate section  -->
+    <section id="section5">
+        <h2 class="center common-bg m-0">Certifications</h2>
+        <div class="projects ">
+            <div class="project" onmouseenter="func1('btnid5')" onmouseleave="func2('btnid5')">
+                <h4 class="center">Hackathon-2022</h4>
+                <p>The event held at iAce(International Automobile Center of Excellence). I am participated and given
+                    the contribution to the problem solutions ,created the website that presents the solution.Lot of
+                    enjoy,knowledge,Joyful,Great experience during 48 hours of hackathon period</p>
+                <button class="btn2" id="btnid5"
+                    onclick="window.location.href='https://drive.google.com/file/d/1CwPOy5G2XKP-0c_0DmZCK-b9qzmA-yP3/view'">View
+                    Certificate</button>
+            </div>
+            <div class="project" onmouseenter="func1('btnid6')" onmouseleave="func2('btnid6')">
+                <h4 class="center">Ideathon</h4>
+                <p>The name refres to the creative ideas which is funded by the SSIP(Student Startup and Innovation
+                    Portal) funded by the Goovernment of Gujarat.I am participated in event to give the newly ideas
+                    which is relatable to the new world requirements and promoting the digitalization to keep secure and
+                    healthy environment.</p>
+                <button class="btn2" id="btnid6"
+                    onclick="window.location.href='https://certificate.givemycertificate.com/c/72bc13a2-1a17-40ed-b4ef-dfd99f68606b'">View
+                    Certificate</button>
+            </div>
+            <div class="project" onmouseenter="func1('btnid7')" onmouseleave="func2('btnid7')">
+                <h4 class="center">Google Cloud Study jams</h4>
+                <p>The IOT(Internet Of Things) are rapidly increasing and its alll about data,so studying the cloud
+                    computing by attending the google labs is very brilliant opportunity for me.Virtualy feeling working
+                    as the part of Google team is very good. This event is held by GDSC(Google Developer Student
+                    Club)under the guidence of GDSC lead.</p>
+                <button class="btn2" id="btnid7"
+                    onclick="window.location.href='https://drive.google.com/file/d/1HWXHO940D0XpvwE__WwPXwSB2FzvUmBk/view';">View
+                    Certificate</button>
+            </div>
+            <div class="project" onmouseenter="func1('btnid8')" onmouseleave="func2('btnid8')">
+                <h4 class="center">Bootstrap Website</h4>
+                <p>Powerful, extensible, and feature-packed frontend toolkit. Build and customize with Sass, utilize
+                    prebuilt grid system and components, and bring projects to life with powerful JavaScript
+                    plugins.Bootstrap utilizes Sass for a modular and customizable architecture. Import only the
+                    components you need, enable global options like gradients and shadows, and write your own CSS with
+                    our variables, maps, functions, and mixins. </p>
+                <button class="btn2" id="btnid8">View Certificate</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- certificate section ends here / -->
+
+
+    <!-- contact us section  -->
+    <h2 class="center common-bg m-0">Reach out to me!</h2>
+    <section id="section3">
+        <div class="sec3div1">
+            <form action="" method="post">
+                <span><b>
+                        <center>Drop a Message!</center>
+                    </b></span>
+                <div class="lb-in">
+                    <label for="">Name:</label>
+                    <input type="text" name="" id="" required placeholder="Enter your name">
+                </div>
+                <div class="lb-in">
+                    <label for="">Email:</label>
+                    <input type="email" name="" id="" required placeholder="abc@gmail.com">
+                </div>
+                <div class="lb-in">
+                    <label for="">Message:</label><br>
+                    <textarea name="" id="" rows="4" placeholder="Enter your message briefly" required></textarea>
+                </div>
+                <div class="center">
+                    <input type="submit" value="Message" class="btn" title="message">
+                </div>
+            </form>
+        </div>
+        <div class="sec3div2">
+            <h4><span><b>
+                        <center>Get in touch now!</center>
+                    </b></span></h4>
+            <div class="location-info">
+                <div class="">
+                    <img src="images/gmail-logo-24.png" alt="" title="gmail">
+                </div>
+                <div>dipakthakor1938@gmail.com <a href="mailto:dipakthakor1938@gmail.com">Send mail</a></div>
+                <div class="">
+                    <img src="images/phone-call-solid-24.png" alt="" title="phone">
+                </div>
+                <div class="">+91 84018887622 <a href="tel:8401888762">Call</a></div>
+                <div>
+                    <img src="images/home-solid-24.png" alt="" title="address">
+                </div>
+                <div>
+                    <address>
+                        855-Shivshakti Society,<br>Sector-27, <br>Gandhinagar ,<br>Gujarat ,360023
+                    </address>
+                </div>
+                <div>
+                    <img src="images/user-solid-24.png" alt="">
+                </div>
+            </div>
+            <div>
+                <ul class="social-list">
+                    <li><a href="https://www.linkedin.com/in/dipak-paliya/" target="_blank"><img
+                                src="images/linkedin-square-logo-24.png" alt="" title="linkedIn"></a></li>
+                    <li><a href="https://github.com/Dipakpaliya" target="_blank"><img src="images/github-logo-24.png"
+                                alt="" title="GitHub"></a></li>
+                    <li><a href="https://www.instagram.com/dipak_paliya_1938/" target="_blank"><img
+                                src="images/instagram-logo-24.png" alt="" title="Instagram"></a></li>
+                    <li><a href="https://www.facebook.com/dipak.paliya.18" target="_blank"><img
+                                src="images/facebook-circle-logo-24.png" alt="" title="facebook"></a></li>
+                </ul>
+            </div>
+    </section>
+
+    <!-- contact us section ends here  -->
+
+
+
+    <!-- footer starts here  -->
+    <footer>
+        <div id="footer" class="center">
+            <div>
+                <h3> Explore </h3>
+                <ul class="ab-list">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Work with me</a></li>
+                    <li><a href="#section4">Skills</a></li>
+                    <li><a href="#section2">Projects</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                </ul>
+            </div>
+            <div>
+                <h3>Services</h3>
+                <ul class="ab-list">
+                    <li><a href="#">Frontend</a></li>
+                    <li><a href="#">Backend</a></li>
+                    <li><a href="#">Databases</a></li>
+                    <li><a href="#">Git & GitHub</a></li>
+                    <li><a href="#">MERN</a></li>
+                </ul>
+            </div>
+            <div>
+                <h3>About</h3>
+                <div>
+                    <q>There is nothing place like 127.0.0.1</q>
+                    <h4 class="">Thanks for visiting my portfolio</h4>
+                </div>
+            </div>
+        </div>
+        <div class="center last-ft">
+            Copyright &copy; 2024.
+            Created by Dipak Paliya. | Last updated on 04/06/2024 01:16:31 AM
+        </div>
+    </footer>
+
+    <!-- foooter ends here  -->
+</body>
+
+</html>
